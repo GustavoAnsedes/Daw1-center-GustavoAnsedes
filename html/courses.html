@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoursesForm</title>
+</head>
+<body>
+    <main>
+        <legend>Studen survey</legend>
+        <br>
+        <form>
+            <label for="sname">Student Name</label>
+            <br>
+            <input type="text" id="sname" name="sname">
+            <br>
+            <label for="date">Date</label>
+            <br>
+            <input type="date" id="date" name="date">
+            <br>
+            <label>How long have you been a student here?</label>
+            <br>
+            <select name="years" id="years" form="howmanyyears">
+                <option value="Less1">Less than 1 year</option>
+                <option value="More1">More than 1 year</option>
+                <option value="2year">2 years</option>
+            </select>
+            <br>
+            <caption>Instruction</caption>
+            <br>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <td></td>
+                        <td>Disagree</td>
+                        <td>Neutral</td>
+                        <td>Agree</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>The instructors were qualified to teach these classes</td>
+                        <td><input type="radio" id="check1">
+                        <td><input type="radio" id="check2">
+                        <td><input type="radio" id="check3">
+                    </tr>
+                    <tr>
+                        <td>The instructors demonstrated enthusiasm for the subject matter</td>
+                        <td><input type="radio" id="check4">
+                        <td><input type="radio" id="check5">
+                        <td><input type="radio" id="check6">
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <br>
+        <button type="submit" form="form1" value="Submit">SUBMIT</buton>
+    </main>
+</body>
+</html>
