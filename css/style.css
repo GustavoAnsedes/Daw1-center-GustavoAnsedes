@@ -5,10 +5,11 @@ body{
 }
 nav{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     background-color: #F1C50E;
     height: 60px;
 }
+
 
 main{
     margin-top: 50px;

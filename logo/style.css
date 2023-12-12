@@ -1,0 +1,44 @@
+.container{
+    background-color: black;
+    height: 60px;
+    width: 75px;
+    position: absolute;
+}
+
+.cuadazul{
+    background-color: #199DDD;
+    height: 22px;
+    width: 28px;
+    position: relative;
+    margin-top: 8px;
+    margin-left: 9.5px;
+}
+
+.cuadrojo{
+    background-color: #F0262F;
+    height: 22px;
+    width: 28px;
+    position: relative;
+    margin-bottom: 8px;
+    margin-left: 37.5px;
+}
+
+.semiturquesa{
+    background-color: #3EC5D9;
+    height: 15px;
+    width: 15px;
+    border-radius: 5rem 5rem 5rem 0;
+    position: relative;
+    margin-top: -37px;
+    margin-left: 30px;
+}
+
+.semiamarillo{
+    background-color: #F1C50E;
+    height: 15px;
+    width: 15px;
+    border-radius: 5rem 0 5rem 5em;
+    position: relative;
+    margin-top: -10px;
+    margin-left: 25px;
+}
