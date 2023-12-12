@@ -1,0 +1,56 @@
+body{
+    height: 100%;
+    color:white;
+    font-family: Barlow;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    background-color: #F1C50E;
+    height: 60px;
+}
+
+nav>a{
+    text-decoration: none;
+    color:white;
+}
+
+nav>a:hover{
+    background-color: black;
+    
+}
+
+form{
+    background-color: #f0707E;
+}
+
+legend{
+    background-color: #199DDD;
+}
+
+button{
+    background-color: #F0262F;
+    color:white;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+button:active{
+    color: black;
+}
+
+td.fondo{
+    background-color: #199DDD;
+}
+
+footer{
+    background-color: #F1C50E;
+    display: flex;
+    justify-content: center;
+}
+
+footer>a{
+    text-decoration: none;
+    color:white;
+}
